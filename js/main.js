@@ -7,14 +7,14 @@
 
 	"use strict";
 
-	$(window).stellar({
-    responsive: true,
-    parallaxBackgrounds: true,
-    parallaxElements: true,
-    horizontalScrolling: false,
-    hideDistantElements: false,
-    scrollProperty: 'scroll'
-  });
+	// $(window).stellar({
+ //    responsive: true,
+ //    parallaxBackgrounds: true,
+ //    parallaxElements: true,
+ //    horizontalScrolling: false,
+ //    hideDistantElements: false,
+ //    scrollProperty: 'scroll'
+ //  });
 
 
 	var fullHeight = function() {
@@ -73,7 +73,7 @@
 
 	    $('html, body').animate({
 	        scrollTop: $($.attr(this, 'href')).offset().top - 70
-	    }, 500, function() {
+	    }, 0, function() {
 	    	// window.location.hash = href;
 	    });
 		});
